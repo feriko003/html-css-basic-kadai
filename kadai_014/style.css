@@ -1,40 +1,40 @@
+/*ルート要素の指定*/
 html {
     font-size: 20px;
     text-align: center;
  }
 
 
+ /*bodyのフォント指定*/
 body {
     font-family: "Arial", "Meiryo", sans-serif;
  }
 
 
+ /*「h1タグ MY PROFILE」の装飾*/
 h1 {
     font-family: "Josefin Sans", sans-serif;
-    font-size: 40px;
+    font-size: 2rem;
     letter-spacing: 1.2em;
     text-shadow: 2px 2px 2px gray;
     border-bottom: solid 3px rgb(115, 115, 114);
+    font-optical-sizing: auto;
  }
 
 
+ /*「h1タグのＭ」と「h2」　スカイブルー指定*/
 .skyblue {
     color: skyblue;
  }
 
 
+ /*「h1タグのＰ」と「h2」　ピンク指定*/
 .pink {
     color: rgb(255, 192, 203);
  }
 
 
+ /*parents div 文字の太さ*/
 #parent p {
     font-weight: bold;
  }
-
-
-.josefin-sans {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
- }
- 
